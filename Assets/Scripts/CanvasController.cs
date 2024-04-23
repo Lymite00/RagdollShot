@@ -5,10 +5,8 @@ using UnityEngine.UI;
 
 public class CanvasController : MonoBehaviour
 {
-    public Slider timeSlider;
     void Start()
     {
-        timeSlider.value = Time.timeScale;
 
     }
 
